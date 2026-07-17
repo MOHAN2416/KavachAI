@@ -1,0 +1,33 @@
+# Secrets — never commit these
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+dist/
+build/
+frontend/dist/
+
+# Runtime data (screenshots, sqlite db, raw html captures)
+/data/
+*.sqlite
+*.sqlite-journal
+*.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Playwright
+playwright-report/
+test-results/
+/playwright/.cache/
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+*.swp
